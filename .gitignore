@@ -123,7 +123,6 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
 .venv
 env/
 venv/
@@ -166,7 +165,6 @@ cython_debug/
 garak.*.jsonl
 garak.log
 hitlog.*.jsonl
-.vscode
 .history/
 garak_runs/
 runs/
@@ -178,3 +176,5 @@ logs/
 garak-report/.yarn/
 
 .yarn
+config.bat
+node_modules
