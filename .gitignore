@@ -176,5 +176,9 @@ logs/
 garak-report/.yarn/
 
 .yarn
-config.bat
 node_modules
+
+# env files (restored after malware removed this)
+.env
+.env.*
+!.env.example
