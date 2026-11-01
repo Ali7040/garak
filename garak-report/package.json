@@ -7,9 +7,9 @@
     "access": "restricted"
   },
   "scripts": {
-    "dev": "node init && vite",
-    "build": "node init && vite build",
-    "build:example": "node init && BUILD_EXAMPLE=true vite build",
+    "dev": "vite",
+    "build": "vite build",
+    "build:example": "BUILD_EXAMPLE=true vite build",
     "test": "vitest run --coverage",
     "lint": "eslint .",
     "format": "prettier --write .",
